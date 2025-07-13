@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+#malla {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.materia {
+  border: 1px solid #333;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+}
+
+#infoMateria {
+  margin-top: 30px;
+  font-weight: bold;
+}
